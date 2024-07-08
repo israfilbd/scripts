@@ -16,9 +16,7 @@ echo "============================"
 
 # Sync the repositories
 /opt/crave/resync.sh
-echo "============="
-echo "Sync success"
-echo "============="
+echo "============================"
 
 # Export
 export BUILD_USERNAME=ij-israfil
