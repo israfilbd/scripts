@@ -14,9 +14,6 @@ echo "============================"
 echo "Local manifest clone success"
 echo "============================"
 
-#Remove clang
-rm -rf prebuilts/clang/host/linux-x86
-
 # Sync the repositories
 /opt/crave/resync.sh
 echo "============================"
@@ -32,10 +29,6 @@ echo "====== Envsetup Done ======="
 
 # Lunch
 lunch lineage_RMX1901-ap2a-user
-echo "============="
-
-# Make cleaninstall
-make installclean
 echo "============="
 
 # Build rom
