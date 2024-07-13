@@ -14,9 +14,6 @@ echo "============================"
 echo "Local manifest clone success"
 echo "============================"
 
-#Remove clang
-rm -rf prebuilts/clang/host/linux-x86
-
 # Sync the repositories
 /opt/crave/resync.sh
 echo "============================"
