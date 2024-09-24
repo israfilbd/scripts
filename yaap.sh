@@ -18,9 +18,6 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
-# Remove
-rm -rf hardware/google/pixel
-
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
