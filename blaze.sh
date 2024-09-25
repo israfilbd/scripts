@@ -28,7 +28,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch blaze_RMX1901-ap3a-userdebug
+lunch blaze_RMX1901-ap3a-eng
 echo "============="
 
 # Make cleaninstall
