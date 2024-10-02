@@ -24,6 +24,6 @@ export BUILD_HOSTNAME=crave
 echo "======= Export Done ======"
 
 #build the rom
-source build/envsetup.sh
+. build/envsetup.sh
 m installclean
-goafterlife RMX1901-user
+goafterlife RMX1901 user
