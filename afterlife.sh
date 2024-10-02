@@ -26,4 +26,4 @@ echo "======= Export Done ======"
 #build the rom
 . build/envsetup.sh
 m installclean
-goafterlife RMX1901 user
+afterlife_RMX1901-user
