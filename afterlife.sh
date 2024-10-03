@@ -20,7 +20,7 @@ echo "============================"
 
 # Clang
 rm -rf prebuilts/clang/host/linux-x86/clang-r510928
-git clone https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r530567.git -b 14.0 prebuilts/clang/host/linux-x86/clang-r510928
+git clone https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r510928.git -b 14.0 prebuilts/clang/host/linux-x86/clang-r510928
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
