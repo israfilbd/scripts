@@ -32,4 +32,4 @@ make installclean
 echo "============="
 
 # Build rom
-mka bacon
+m afterlife
