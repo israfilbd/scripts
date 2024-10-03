@@ -23,7 +23,13 @@ export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
 echo "======= Export Done ======"
 
-#build the rom
-. build/envsetup.sh
-m installclean
-afterlife_RMX1901-user
+# Lunch
+lunch afterlife_RMX1901-user
+echo "============="
+
+# Make cleaninstall
+make installclean
+echo "============="
+
+# Build rom
+mka bacon
