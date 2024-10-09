@@ -3,13 +3,13 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
+repo init --depth=1 -u https://github.com/DerpFest-AOSP/manifest.git -b 15
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b yaap https://github.com/israfilbd/local_manifests .repo/local_manifests
+git clone -b derp-15 https://github.com/ij-israfil/local_manifests .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -28,7 +28,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch yaap_RMX1901-userdebug
+lunch derp_RMX1901-user
 echo "============="
 
 # Make cleaninstall
@@ -36,4 +36,4 @@ make installclean
 echo "============="
 
 # Build rom
-m yaap
+mka derp
