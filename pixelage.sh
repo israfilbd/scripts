@@ -3,7 +3,7 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init --depth=1 -u https://github.com/ij-project/android_manifest.git -b 15 --git-lfs
+repo init --depth=1 -u https://github.com/ProjectPixelage/android_manifest.git -b 15 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
