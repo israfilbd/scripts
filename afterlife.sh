@@ -24,7 +24,17 @@ export BUILD_HOSTNAME=crave
 export TZ=Asia/Dhaka
 echo "======= Export Done ======"
 
-#build the rom
-. build/envsetup.sh
-m installclean
-goafterlife RMX1901 user
+# Set up build environment
+source build/envsetup.sh
+echo "====== Envsetup Done ======="
+
+# Lunch
+lunch afterlife_RMX1901-ap2a-user
+echo "============="
+
+# Make cleaninstall
+make installclean
+echo "============="
+
+# Build rom
+m afterlife
