@@ -21,6 +21,7 @@ echo "============================"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
+export TZ=Asia/Dhaka
 echo "======= Export Done ======"
 
 #build the rom

@@ -21,6 +21,7 @@ echo "============================"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
+export TZ=Asia/Dhaka
 export PIXELAGE_BUILD=RMX1901
 echo "======= Export Done ======"
 
