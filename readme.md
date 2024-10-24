@@ -1,6 +1,7 @@
 # AlphaDroid Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/alpha.sh | bash"
+```
 # Matrixx Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/matrix.sh | bash"
