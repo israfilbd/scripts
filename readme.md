@@ -22,6 +22,10 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/derp-15.sh | bash"
 ```
+# Pixelstar Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/pixelstar.sh | bash"
+```
 # Pixelage Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/pixelage.sh | bash"
