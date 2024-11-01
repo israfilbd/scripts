@@ -29,7 +29,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch pixelstar_RMX1901-user
+lunch pixelstar_RMX1901-eng
 echo "============="
 
 # Make cleaninstall
