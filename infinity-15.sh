@@ -18,6 +18,8 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
+<!-- NetworkStack -->
+ rm -rf packages/modules/NetworkStack && git clone -b lineage-22.0 https://github.com/LineageOS/android_packages_modules_NetworkStack packages/modules/NetworkStack
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
