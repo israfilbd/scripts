@@ -14,6 +14,10 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/afterlife.sh | bash"
 ```
+# Crdroid-15 Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/cr-15.sh | bash"
+```
 # Infiny-X A15 Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/infinity-15.sh | bash"
