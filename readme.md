@@ -18,6 +18,10 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/cr-15.sh | bash"
 ```
+# Evox-vic A15 Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/evox-vic.sh | bash"
+```
 # Infiny-X A15 Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/infinity-15.sh | bash"
