@@ -42,6 +42,10 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/pixelage.sh | bash"
 ```
+# Rising-15 Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/rising-15.sh | bash"
+```
 # Rising Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/rising.sh | bash"
