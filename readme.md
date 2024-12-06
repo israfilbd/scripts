@@ -1,56 +1,30 @@
-# AlphaDroid Command:
+<h1 align="center"> Android 15 Scripts </h1>
+
+# Crdroid Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/alpha.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/crdroid.sh | bash"
 ```
-# Matrixx Command:
+# Evox Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/matrix.sh | bash"
-```
-# Orion-OS Command:
-```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/orion.sh | bash"
-```
-# AfterLife Command:
-```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/afterlife.sh | bash"
-```
-# Crdroid-15 Command:
-```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/cr-15.sh | bash"
-```
-# Evox-vic A15 Command:
-```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/evox-vic.sh | bash"
-```
-# Infiny-X A15 Command:
-```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/infinity-15.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/evox.sh | bash"
 ```
 # Infiny-X Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/infinity.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/infinity.sh | bash"
 ```
-# DerpFest A15 Command:
+# DerpFest Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/derp-15.sh | bash"
-```
-# Pixelstar Command:
-```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/pixelstar.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/derp.sh | bash"
 ```
 # Pixelage Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/pixelage.sh | bash"
-```
-# Rising-15 Command:
-```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/rising-15.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/pixelage.sh | bash"
 ```
 # Rising Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/rising.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/rising.sh | bash"
 ```
-# Blaze A15 Command:
+# Blaze Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/main/blaze.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/blaze.sh | bash"
 ```
