@@ -22,7 +22,7 @@ echo "============================"
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
 export TZ="Asia/Dhaka"
-export PIXELAGE_BUILD=RMX1901
+export PIXELAGE_BUILD="RMX1901"
 echo "======= Export Done ======"
 
 # Set up build environment
@@ -30,7 +30,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch pixelage_RMX1901-ap3a-user
+lunch pixelage_RMX1901-ap4a-user
 echo "============="
 
 # Make cleaninstall
