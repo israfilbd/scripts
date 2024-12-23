@@ -29,7 +29,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch lineage_RMX1901-ap3a-user
+lunch lineage_RMX1901-ap4a-user
 echo "============="
 
 # Make cleaninstall
