@@ -8,6 +8,10 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/evox.sh | bash"
 ```
+# P. Flare Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/flare.sh | bash"
+```
 # Infiny-X Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/infinity.sh | bash"
