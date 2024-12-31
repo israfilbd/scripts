@@ -32,7 +32,3 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/voltage.sh | bash"
 ```
-# Blaze Command:
-```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/15/blaze.sh | bash"
-```
