@@ -2,6 +2,10 @@
 
 rm -rf .repo/local_manifests/
 
+# Local TimeZone
+sudo rm -rf /etc/localtime
+sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
+
 # Rom source repo
 repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b QPR3 -g default,-mips,-darwin,-notdefault
 echo "=================="
@@ -21,7 +25,6 @@ echo "============================"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
-export TZ="Asia/Dhaka"
 echo "======= Export Done ======"
 
 # Set up build environment
