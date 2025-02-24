@@ -24,7 +24,7 @@ echo "============================"
 
 # Mic Fixes
 cd frameworks/base/services/core/java/com/android/server/policy && rm -rf PhoneWindowManager.java
-wget -r https://raw.githubusercontent.com/israfilbd/fixes/refs/heads/main/abcd/PhoneWindowManager.java
+wget https://raw.githubusercontent.com/israfilbd/fixes/refs/heads/main/abcd/PhoneWindowManager.java
 cd -
 echo "========================"
 echo "Microphone Fix successful"
