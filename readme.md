@@ -1,5 +1,9 @@
 <h1 align="center"> Android 15 Scripts </h1>
 
+# Alpha-Droid Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/15/alpha.sh | bash"
+```
 # Crdroid Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/15/crdroid.sh | bash"
