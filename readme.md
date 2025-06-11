@@ -1,4 +1,4 @@
-<h1 align="center"> Android 15 Scripts </h1>
+<h1 align="center"> Android 16 Scripts </h1>
 
 # Alpha-Droid Command:
 ```
@@ -10,7 +10,7 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 # Evox Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/15/evox.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/evox.sh | bash"
 ```
 # Matrixx Command:
 ```
