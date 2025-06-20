@@ -32,7 +32,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch lineage_RMX1901-bp2a-user
+lunch lineage_RMX1901-bp2a-userdebug
 echo "============="
 
 # Make cleaninstall
