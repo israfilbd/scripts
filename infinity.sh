@@ -25,6 +25,7 @@ echo "============================"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
+export SELINUX_IGNORE_NEVERALLOWS=true
 echo "======= Export Done ======"
 
 # Set up build environment
