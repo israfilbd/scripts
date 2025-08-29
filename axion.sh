@@ -13,7 +13,7 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b axion https://github.com/ij-israfil/local_manifests .repo/local_manifests
+git clone -b axion https://github.com/israfilbd/local_manifests .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
