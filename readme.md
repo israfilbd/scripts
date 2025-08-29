@@ -24,9 +24,9 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/infinity.sh | bash"
 ```
-# DerpFest Command:
+# Axion Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/derp.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/axion.sh | bash"
 ```
 # Pixelage Command:
 ```
