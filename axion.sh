@@ -33,7 +33,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-axion RMX1901 user gms pico
+axion RMX1901 userdebug gms pico
 echo "============="
 
 # Make cleaninstall
