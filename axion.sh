@@ -7,7 +7,7 @@ sudo rm -rf /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
 
 # Rom source repo
-repo init --depth=1 -u https://github.com/AxionAOSP/android.git -b lineage-23.0
+repo init --depth=1 -u https://github.com/AxionAOSP/android.git -b lineage-23.0 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
