@@ -29,6 +29,7 @@ export TARGET_HAS_UDFPS=true
 export TARGET_PREBUILT_LAWNCHAIR_LAUNCHER=false
 export TARGET_DEFAULT_PIXEL_LAUNCHER=true
 export TARGET_INCLUDE_ACCORD=false
+export DONT_DEXPREOPT_PREBUILTS=true
 echo "======= Export Done ======"
 
 # Mic Fix
