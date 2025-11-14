@@ -27,7 +27,7 @@ export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
 export TARGET_HAS_UDFPS=true
 export TARGET_PREBUILT_LAWNCHAIR_LAUNCHER=false
-export TARGET_DEFAULT_PIXEL_LAUNCHER=false
+export TARGET_DEFAULT_PIXEL_LAUNCHER=true
 export TARGET_INCLUDE_ACCORD=false
 echo "======= Export Done ======"
 
