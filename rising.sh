@@ -26,6 +26,7 @@ echo "============================"
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
 export TARGET_HAS_UDFPS=true
+export WITH_GMS=false
 export DONT_DEXPREOPT_PREBUILTS=true
 echo "======= Export Done ======"
 
