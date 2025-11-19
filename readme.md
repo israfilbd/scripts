@@ -12,6 +12,10 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/infinity.sh | bash"
 ```
+# P.Matrixx Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/matrixx.sh | bash"
+```
 # Rising Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/rising.sh | bash"
