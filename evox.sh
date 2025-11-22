@@ -7,13 +7,13 @@ sudo rm -rf /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
 
 # Rom source repo
-repo init --depth=1 -u https://github.com/Evolution-X/manifest -b bka --git-lfs
+repo init --depth=1 -u https://github.com/Evolution-X/manifest -b bq1 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b evox-bka https://github.com/israfilbd/local_manifests .repo/local_manifests
+git clone -b evox-bq1 https://github.com/israfilbd/local_manifests .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -32,7 +32,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch lineage_RMX1901-bp2a-user
+lunch lineage_RMX1901-bp3a-userdebug
 echo "============="
 
 # Make cleaninstall
