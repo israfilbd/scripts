@@ -25,7 +25,6 @@ echo "============================"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
-export BUILD_BROKEN_DUP_RULES=true
 echo "======= Export Done ======"
 
 # Set up build environment
