@@ -22,6 +22,10 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
+# Remove Project
+rm -rf hardware/interfaces/sensors/2.0/multihal
+rm -rf vendor/qcom/opensource/healthd-ext
+
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
