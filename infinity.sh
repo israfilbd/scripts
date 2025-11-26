@@ -25,6 +25,7 @@ echo "============================"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
+export TARGET_HAS_UDFPS=true
 echo "======= Export Done ======"
 
 # Mic Fix
