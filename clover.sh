@@ -29,6 +29,8 @@ echo "======= Remove Done ======"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
+export WITH_GMS=true
+export TARGET_DISABLE_EPPE=true
 export SELINUX_IGNORE_NEVERALLOWS=true
 echo "======= Export Done ======"
 
