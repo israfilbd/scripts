@@ -7,7 +7,7 @@ sudo rm -rf /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
 
 # Rom source repo
-repo init --depth=1 -u https://github.com/The-Clover-Project/manifest.git -b 16-qpr1 --git-lfs
+repo init -u https://github.com/The-Clover-Project/manifest.git -b 16-qpr1 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
