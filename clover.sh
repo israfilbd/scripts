@@ -23,7 +23,7 @@ echo "============================"
 echo "============================"
 
 # Remove Project
-rm -rf hardware/interfaces/sensors/2.0/multihal
+# rm -rf hardware/interfaces/sensors/2.0/multihal
 echo "======= Remove Done ======"
 
 # Export
