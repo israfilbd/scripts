@@ -1,5 +1,9 @@
 <h1 align="center"> Android 16 Scripts </h1>
 
+# Alpha Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/alpha.sh | bash"
+```
 # Axion Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/axion.sh | bash"
