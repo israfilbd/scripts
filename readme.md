@@ -28,7 +28,7 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/script
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/matrixx.sh | bash"
 ```
-# Rising Command:
+# Mist-OS Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/rising.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/mistos.sh | bash"
 ```

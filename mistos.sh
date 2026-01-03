@@ -7,13 +7,13 @@ sudo rm -rf /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
 
 # Rom source repo
-repo init --depth=1 -u https://github.com/RisingOS-Revived/android -b sixteen --git-lfs
+repo init --depth=1 -u https://github.com/Project-Mist-OS/manifest.git -b 16 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b rising-16 https://github.com/israfilbd/local_manifests .repo/local_manifests
+git clone -b mistos https://github.com/israfilbd/local_manifests .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -25,9 +25,8 @@ echo "============================"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
-export TARGET_HAS_UDFPS=true
-export WITH_GMS=false
-export DONT_DEXPREOPT_PREBUILTS=true
+export WITH_GMS=true
+export TARGET_USES_MINI_GAPPS=true
 echo "======= Export Done ======"
 
 # Mic Fix
@@ -38,8 +37,8 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-riseup RMX1901 user
+mistify RMX1901 user
 echo "============="
 
 # Build rom
-rise b
+mist b
