@@ -24,7 +24,7 @@ echo "============================"
 
 # Export
 export WITH_GMS=true
-export TARGET_USES_MINI_GAPPS=true
+export TARGET_USES_OMNI_GAPPS=true
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
 echo "======= Export Done ======"
