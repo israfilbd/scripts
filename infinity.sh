@@ -26,6 +26,10 @@ echo "============================"
 rm -rf hardware/interfaces/sensors/2.0/multihal
 echo "======= Remove Done ======"
 
+# UDFPS & Mic Fix
+echo ">>> Cherry picking..." && cd frameworks/base && git fetch https://github.com/ij-project/frameworks_base && (git cherry-pick 522af81 || git cherry-pick --skip) && cd ../..
+echo "======= Cherry picking Done ======"
+
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
