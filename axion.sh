@@ -32,7 +32,6 @@ echo "======= Cherry picking Done ======"
 
 # Export
 export WITH_GMS=true
-export TARGET_CORE_GMS=true
 export TARGET_DISABLE_EPPE=true
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
@@ -43,7 +42,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-axion RMX1901 user gms core
+axion RMX1901 user gms
 echo "============="
 
 # Make cleaninstall
