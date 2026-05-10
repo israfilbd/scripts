@@ -31,8 +31,7 @@ echo ">>> Cherry picking..." && cd frameworks/base && git fetch https://github.c
 echo "======= Cherry picking Done ======"
 
 # Export
-export WITH_GMS=false
-export TARGET_CUSTOM_UDFPS= true
+export WITH_GMS=true
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
 echo "======= Export Done ======"
