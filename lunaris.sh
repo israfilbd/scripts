@@ -32,6 +32,10 @@ echo "======= Cherry picking Done ======"
 
 # Export
 export WITH_GMS=true
+export TARGET_SUPPORTS_GOOGLE_TELEPHONY=false
+export TARGET_OPTIMIZED_DEXOPT=true
+export TARGET_USE_GPHOTOS=false
+export TARGET_USE_WALLPAPERS=false
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
 echo "======= Export Done ======"
