@@ -32,7 +32,9 @@ echo "======= Cherry picking Done ======"
 
 # Export
 export WITH_GMS=true
-export TARGET_SUPPORTS_GOOGLE_TELEPHONY=false
+export WITH_GMS_COMMS_SUITE=false
+export WITH_PIXEL_LAUNCHER=false
+export TARGET_USE_FILES=true
 export TARGET_OPTIMIZED_DEXOPT=true
 export TARGET_USE_GPHOTOS=false
 export TARGET_USE_WALLPAPERS=false
