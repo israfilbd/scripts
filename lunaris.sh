@@ -34,7 +34,6 @@ echo "======= Cherry picking Done ======"
 export WITH_GMS=true
 export WITH_GMS_COMMS_SUITE=false
 export WITH_PIXEL_LAUNCHER=false
-export TARGET_USE_FILES=true
 export TARGET_OPTIMIZED_DEXOPT=true
 export TARGET_USE_GPHOTOS=false
 export TARGET_USE_WALLPAPERS=false
