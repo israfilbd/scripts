@@ -32,7 +32,6 @@ echo "======= Cherry picking Done ======"
 
 # Export
 export WITH_GMS=true
-export SELINUX_IGNORE_NEVERALLOWS=true
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
 echo "======= Export Done ======"
