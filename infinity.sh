@@ -29,7 +29,6 @@ echo "======= Remove Done ======"
 # Export
 export BUILD_USERNAME=ij-israfil
 export BUILD_HOSTNAME=crave
-export TARGET_ENABLE_BLUR=true
 echo "======= Export Done ======"
 
 # Set up build environment
