@@ -2,33 +2,33 @@
 
 # Alpha Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/alpha.sh | bash"
+curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/17/alpha.sh | bash
 ```
 # Axion Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/axion.sh | bash"
+curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/17/axion.sh | bash
 ```
 # Clover Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/clover.sh | bash"
+curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/17/clover.sh | bash
 ```
 # Evox Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/evox.sh | bash"
+curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/17/evox.sh | bash
 ```
 # Infinity-X Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/infinity.sh | bash"
+curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/17/infinity.sh | bash
 ```
 # Lunaris Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/lunaris.sh | bash"
+curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/17/lunaris.sh | bash
 ```
 # P.Matrixx Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/matrixx.sh | bash"
+curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/17/matrixx.sh | bash
 ```
 # Mist-OS Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/mistos.sh | bash"
+curl https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/17/mistos.sh | bash
 ```
