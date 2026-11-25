@@ -19,7 +19,7 @@ echo "Local manifest clone success"
 echo "============================"
 
 # Sync the repositories
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc) --force-sync --no-clone-bundle --no-tags
 echo "============================"
 
 # Remove Project
