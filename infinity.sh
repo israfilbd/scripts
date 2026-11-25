@@ -3,8 +3,8 @@
 rm -rf .repo/local_manifests/
 
 # Local TimeZone
-sudo rm -rf /etc/localtime
-sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
+echo 'export TZ="Asia/Dhaka"' >> ~/.bashrc
+source ~/.bashrc && date
 
 # Rom source repo
 repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 17 -g default,-mips,-darwin,-notdefault
@@ -19,7 +19,7 @@ echo "Local manifest clone success"
 echo "============================"
 
 # Sync the repositories
-repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc)
 echo "============================"
 
 # Remove Project
