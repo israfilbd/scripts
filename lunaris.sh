@@ -19,7 +19,7 @@ echo "Local manifest clone success"
 echo "============================"
 
 # Sync the repositories
-/opt/crave/resync.sh
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 echo "============================"
 
 # Remove Project
@@ -37,8 +37,6 @@ export WITH_PIXEL_LAUNCHER=false
 export TARGET_OPTIMIZED_DEXOPT=true
 export TARGET_USE_GPHOTOS=false
 export TARGET_USE_WALLPAPERS=false
-export BUILD_USERNAME=ij-israfil
-export BUILD_HOSTNAME=crave
 echo "======= Export Done ======"
 
 # Set up build environment
