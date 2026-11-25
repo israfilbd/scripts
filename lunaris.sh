@@ -3,8 +3,8 @@
 rm -rf .repo/local_manifests/
 
 # Local TimeZone
-sudo rm -rf /etc/localtime
-sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
+echo 'export TZ="Asia/Dhaka"' >> ~/.bashrc
+source ~/.bashrc && date
 
 # Rom source repo
 repo init --depth=1 -u https://github.com/Lunaris-AOSP/android -b 16.2 --git-lfs
@@ -32,6 +32,7 @@ echo "======= Cherry picking Done ======"
 
 # Export
 export WITH_GMS=true
+export TARGET_CUSTOM_UDFPS=true
 export WITH_GMS_COMMS_SUITE=false
 export WITH_PIXEL_LAUNCHER=false
 export TARGET_OPTIMIZED_DEXOPT=true
